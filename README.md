@@ -2,6 +2,7 @@
   ```
   Testé avec Ubuntu 18.04LTS.
   Écrit en python3 avec les librairies Tk and pygame.
+  Testé avec une manette Logitech F310
   ```
   
 **Installation**
@@ -99,7 +100,6 @@ Buttons
 
 Fenêtre de données
 4 fenêtres de données sont disponible
-
 ```
 Résultat des commandes systèmes
 Données générée par la manette
@@ -108,7 +108,6 @@ Total reçu pour les données vidéo (en kB)
 ```
 Notes sur le module vidéo 
 ```
-
 L'interface vidéo mplayer va s'afficher quand elle aura reçu un minimum de 1 MB de données.
 Mplayer peut 'geler' (bug de mplayer) si vous cliquez à répétition sur l'image vidéo 
 pendant le visionnement. Un redémarrage complet de l'interface graphique peut être 
