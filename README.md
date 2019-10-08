@@ -1,4 +1,4 @@
-**Interface graphique utilisateur pour véhicule robotique fonctionnant sous RaspberryPi**
+**Interface graphique de contrôle pour véhicule robotique fonctionnant sous RaspberryPi**
   ```
   Testé avec Ubuntu 18.04LTS.
   Écrit en python3 avec les librairies Tk and pygame.
