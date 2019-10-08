@@ -96,15 +96,15 @@ Buttons
 [Stop video]    Arrêter le module video
 [Exit]          Quitter le programme
 ```
-Log windows
 
+Fenêtre de données
 4 fenêtres de données sont disponible
 
 ```
 Résultat des commandes systèmes
 Données générée par la manette
-Données télémetrique du véhicule robotique
-Total reçu des données vidéo (en kB) 
+Données télémetriques du véhicule robotique
+Total reçu pour les données vidéo (en kB) 
 ```
 Notes sur le module vidéo 
 ```
