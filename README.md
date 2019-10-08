@@ -45,7 +45,7 @@ Interface vidéo mplayer
 Librairie Tkinter
   ```apt-get install -y python3-tk```
 
-Gestionnaire de pacquets python3pip
+Gestionnaire de paquets python3pip
   ```apt-get install -y python3-pip```
 
 La dernière version de la librairie pygame
@@ -101,18 +101,18 @@ Log windows
 4 fenêtres de données sont disponible
 
 ```
-System log window               System command output
-Control log - joystick          PS2 controler values     
-Control log - motor telemetry   Motor remote telemetry
-Video log - video data status   Video bytes received 
+Résultat des commandes systèmes
+Données générée par la manette
+Données télémetrique du véhicule robotique
+Total reçu des données vidéo (en kB) 
 ```
-Video notes
+Notes sur le module vidéo 
 ```
-The mplayer video program will start when at least 1M of data is received.
-Mplayer may freeze (mplayer bug) if you click multiple time on the video screen. 
-A complete restart of the GUI might be necessary to correct this. 
 
-If you stop and restart the video module, wait at least 2-3 seconds to allow
-the video server to reset and restart, otherwise you will get an error 
-message
+L'interface vidéo mplayer va s'afficher quand elle aura reçu un minimum de 1 MB de données.
+Mplayer peut 'geler' (bug de mplayer) si vous cliquez à répétition sur l'image vidéo 
+pendant le visionnement. Un redémarrage complet de l'interface graphique peut être 
+nécessaire pour corriger la situation. Le redémarrage du module vidéo doit respecter un 
+temps d'attente de 2-3 secondes pour permettre au serveur de redémarrer. Un message d'erreur
+pourrait être ainsi généré.
 ```
