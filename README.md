@@ -1,4 +1,4 @@
-**Interface graphique utilisateur pour véhicule robotique fonctionnant sous RaspberryPi **
+**Interface graphique utilisateur pour véhicule robotique fonctionnant sous RaspberryPi**
   ```
   Testé avec Ubuntu 18.04LTS.
   Écrit en python3 avec les librairies Tk and pygame.
@@ -37,9 +37,9 @@ Vous devriez avoir ces fichiers:
   > chmod +x rover_client_GUI.py
   ```
 
-Étape 4 - Installes les programmes et librairies requises.
+Étape 4 - Installer les programmes et librairies requises.
 
-mplayer video software
+Interface vidéo mplayer
   ```apt-get install -y mplayer```
 
 Librairie Tkinter
@@ -56,18 +56,16 @@ La dernière version de la librairie tendo
   
 Étape 5 - Configurer pour l'accès réseau. 
 
-In file rover.conf, set variable ROVER_IP with the IP address used by the Raspberry Pi controler.
+Dans le fichier rover.conf, assigner à la variable ROVER_IP l'adresse IP du véhicule robotiqye.
   ```
   ROVER_IP = <Ipv4 address>
   ex: ROVER_IP = 192.168.99.1
   ```
   
-Étape 6 - Create a desktop shorcut
+Étape 6 - Créer un raccourci sur le bureau 
+Déplacer le fichier ```Control.desktop``` sur votre bureau. Le système d'opération va utiliser ce fichier pour créer un raccourci. Cliquez sur le bouton [mark executable] au moment de l'exécution initiale.
 
-Move file ```Control.desktop``` to your deskop. The operating system will create a graphic shortcut using this file.
-Click [mark executable] when prompted at the initial execution.
-
-  Control.desktop file content:
+  Contenu de Control.desktop:
   
   ```
   [Desktop Entry]
@@ -83,24 +81,24 @@ Click [mark executable] when prompted at the initial execution.
 
   ```
  
-**Basic Usage**
+**Utilisation**
 
 Buttons 
 ```
-[start]         Start all user interface modules 
-[stop]          Stop all user interface modules
-[Ping rover]    Send ICMP request to RaspberryPi vehicle control instance
-[Reboot]        Reboot RaspberryPi vehicle control instance
-[Shutdown]      Shutdown RaspberryPi vehicle control instance
-[Start control] Start user interface control module only
-[Stop control]  Stop user interface control module only
-[Start video]   Start user interface video module only
-[Stop video]    Stop user interface video module only
-[Exit]          Exit user interface program
+[start]         Démarrer tout les modules
+[stop]          Arrêter tout les modules
+[Ping rover]    Envoyer un Ping au véhicule robotique
+[Reboot]        Redémarrer le véhicule robotique
+[Shutdown]      Éteindre le véhicule robotique (software shutdown)
+[Start control] Démarrer le module de contrôle
+[Stop control]  Arrêter le module de contrôle
+[Start video]   Démarrer le module video
+[Stop video]    Arrêter le module video
+[Exit]          Quitter le programme
 ```
 Log windows
 
-4 log windows are available
+4 fenêtres de données sont disponible
 
 ```
 System log window               System command output
