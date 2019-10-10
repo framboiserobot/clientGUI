@@ -98,7 +98,7 @@ Boutons
 [Exit]          Quitter le programme
 ```
 
-Fenêtre de données
+Information système et télémetrie
 
 4 fenêtres de données sont disponible
 ```
