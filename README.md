@@ -12,11 +12,11 @@
 Créer un répertoire /rover et attribuer sa propriété à votre utilisateur.
 
   ```
-  sudo -s 
-  cd /
-  mkdir /rover
-  chown <your user>:<your group> /rover
-  exit
+  $ sudo -s 
+  $ cd /
+  $ mkdir /rover
+  $ chown <your user>:<your group> /rover
+  $ exit
   ```
 
 Étape 2 - Dans le répertoire /rover, cloner ce repo.
@@ -34,8 +34,8 @@ Vous devriez avoir ces fichiers:
 Étape 3 - Configurer les permissions pour l'exécution.
 
   ```
-  > cd ./clientcontrol
-  > chmod +x rover_client_GUI.py
+  $ cd ./clientcontrol
+  $ chmod +x rover_client_GUI.py
   ```
 
 Étape 4 - Installer les programmes et librairies requises.
