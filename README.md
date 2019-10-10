@@ -84,7 +84,7 @@ Déplacer le fichier ```Control.desktop``` sur votre bureau. Le système d'opér
  
 **Utilisation**
 
-Buttons 
+Boutons 
 ```
 [start]         Démarrer tout les modules
 [stop]          Arrêter tout les modules
