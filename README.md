@@ -64,7 +64,8 @@ Dans le fichier rover.conf, assigner à la variable ROVER_IP l'adresse IP du vé
   ```
   
 Étape 6 - Créer un raccourci sur le bureau 
-Déplacer le fichier ```Control.desktop``` sur votre bureau. Le système d'opération va utiliser ce fichier pour créer un raccourci. Cliquez sur le bouton [mark executable] au moment de l'exécution initiale.
+
+Déplacez le fichier ```Control.desktop``` sur votre bureau. Le système d'opération va utiliser ce fichier pour créer un raccourci. Cliquez sur le bouton [mark executable] au moment de l'exécution initiale.
 
   Contenu de Control.desktop:
   
