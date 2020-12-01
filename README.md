@@ -1,4 +1,7 @@
-**Programme client permettant le contrôle d'un véhicule robotique fonctionnant sous RaspberryPi**
+**modules_client **
+
+Programme client permettant le contrôle à distance d'un véhicule robotique fonctionnant sous RaspberryPi
+
   ```
   Testé avec Ubuntu 18.04LTS.
   Écrit en python3 avec les librairies Tk and pygame.
