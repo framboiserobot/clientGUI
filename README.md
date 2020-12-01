@@ -1,4 +1,4 @@
-**modules_client **
+**modules_client**
 
 Programme client permettant le contrôle à distance d'un véhicule robotique fonctionnant sous RaspberryPi
 
