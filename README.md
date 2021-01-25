@@ -10,7 +10,7 @@ Programme client permettant le contrôle à distance d'un véhicule robotique fo
   
 # Installation et configuration
 
-Étape 1 - Installation du lociciel git
+Étape 1 - Installation du programme git
 
     sudo apt-get install git
 
