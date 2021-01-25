@@ -3,7 +3,7 @@
 Programme client permettant le contrôle à distance d'un véhicule robotique fonctionnant sous RaspberryPi
 
   ```
-  Testé avec Ubuntu 18.04LTS.
+  Testé avec Ubuntu 18.04LTS et 20.04LTS.
   Écrit en python3 avec les librairies Tk and pygame.
   Testé avec une manette Logitech F310
   ```
