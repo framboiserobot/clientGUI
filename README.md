@@ -53,7 +53,7 @@ Interface vidéo mplayer
 Librairie Tkinter
   ```apt-get install -y python3-tk```
 
-Gestionnaire de paquets python3pip
+Gestionnaire de paquets python3 pip
   ```apt-get install -y python3-pip```
 
 La dernière version de la librairie pygame
