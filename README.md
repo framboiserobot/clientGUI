@@ -25,7 +25,7 @@ Créer un répertoire /rover et attribuer sa propriété à votre utilisateur.
   $ sudo -s 
   $ cd /
   $ mkdir /rover
-  $ chown <your user>:<your group> /rover
+  $ chown <user>:<group> /rover
   $ exit
   ```
 
