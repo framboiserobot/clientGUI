@@ -10,7 +10,13 @@ Programme client permettant le contrôle à distance d'un véhicule robotique fo
   
 # Installation et configuration
 
-Étape 1 - Configuration du répertoire local
+Étape 1 - Installation des composantes locicielles
+
+  sudo apt-get install python3-tk
+  sudo apt-get install mplayer
+  sudo apt-get install git
+
+Étape 2 - Configuration du répertoire local
 
 Créer un répertoire /rover et attribuer sa propriété à votre utilisateur.
 
@@ -22,7 +28,7 @@ Créer un répertoire /rover et attribuer sa propriété à votre utilisateur.
   $ exit
   ```
 
-Étape 2 - Dans le répertoire /rover, cloner ce repo.
+Étape 3 - Dans le répertoire /rover, cloner ce repo.
 
   ```git clone https://github.com/framboiserobot/clientcontrol```
   
@@ -34,14 +40,14 @@ Vous devriez avoir ces fichiers:
   rover.conf
   ```
   
-Étape 3 - Configurer les permissions pour l'exécution.
+Étape 4 - Configurer les permissions pour l'exécution.
 
   ```
   $ cd ./clientcontrol
   $ chmod +x rover_client_GUI.py
   ```
 
-Étape 4 - Installer les programmes et librairies requises.
+Étape 5 - Installer les programmes et librairies requises.
 
 Interface vidéo mplayer
   ```apt-get install -y mplayer```
@@ -58,7 +64,7 @@ La dernière version de la librairie pygame
 La dernière version de la librairie tendo
   ```pip3 install tendo```
   
-Étape 5 - Configurer pour l'accès réseau. 
+Étape 6 - Configurer pour l'accès réseau. 
 
 Dans le fichier rover.conf, assigner à la variable ROVER_IP l'adresse IP du véhicule robotiqye.
   ```
@@ -66,7 +72,7 @@ Dans le fichier rover.conf, assigner à la variable ROVER_IP l'adresse IP du vé
   ex: ROVER_IP = 192.168.99.1
   ```
   
-Étape 6 - Créer un raccourci sur le bureau 
+Étape 7 - Créer un raccourci sur le bureau 
 
 Déplacez le fichier ```Control.desktop``` sur votre bureau. Le système d'opération va utiliser ce fichier pour créer un raccourci. Cliquez sur le bouton [mark executable] au moment de l'exécution initiale.
 
