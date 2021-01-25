@@ -12,9 +12,9 @@ Programme client permettant le contrôle à distance d'un véhicule robotique fo
 
 Étape 1 - Installation des composantes locicielles
 
-  sudo apt-get install python3-tk
-  sudo apt-get install mplayer
-  sudo apt-get install git
+    sudo apt-get install python3-tk
+    sudo apt-get install mplayer
+    sudo apt-get install git
 
 Étape 2 - Configuration du répertoire local
 
