@@ -1,4 +1,4 @@
-# module_client
+# Description
 
 Programme client permettant le contrôle à distance d'un véhicule robotique fonctionnant sous RaspberryPi
 
@@ -8,7 +8,7 @@ Programme client permettant le contrôle à distance d'un véhicule robotique fo
   Testé avec une manette Logitech F310
   ```
   
-**Installation**
+# Installation et configuration
 
 Étape 1 - Configuration du répertoire local
 
