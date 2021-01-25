@@ -31,7 +31,7 @@ Créer un répertoire /rover et attribuer sa propriété à votre utilisateur.
 
 Étape 3 - Dans le répertoire /rover, cloner ce repo.
 
-  ```git clone https://github.com/framboiserobot/clientcontrol```
+  ```git clone https://github.com/framboiserobot/modules_client```
   
 Vous devriez avoir ces fichiers:
   ```
