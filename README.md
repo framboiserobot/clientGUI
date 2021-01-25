@@ -10,11 +10,8 @@ Programme client permettant le contrôle à distance d'un véhicule robotique fo
   
 # Installation et configuration
 
-Étape 1 - Installation des composantes locicielles
+Étape 1 - Installation du lociciel git
 
-    sudo apt-get install python3-tk
-    sudo apt-get install python3-pygame
-    sudo apt-get install mplayer
     sudo apt-get install git
 
 Étape 2 - Configuration du répertoire local
@@ -44,7 +41,7 @@ Vous devriez avoir ces fichiers:
 Étape 4 - Configurer les permissions pour l'exécution.
 
   ```
-  $ cd ./clientcontrol
+  $ cd ./modules_client
   $ chmod +x rover_client_GUI.py
   ```
 
